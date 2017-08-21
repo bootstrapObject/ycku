@@ -1,0 +1,100 @@
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none !important;
+}
+#home .carousel-inner > .item > img {
+  margin: auto;
+}
+#home .banner1 {
+  background: #223240;
+}
+#home .banner2 {
+  background: #f4e3db;
+}
+#home .banner3 {
+  background: #dd292c;
+}
+#home > .container > .row > .col-md-6 > .media > .media-body > h4 {
+  margin-bottom: 5%;
+}
+#home > .container > .row > .col-md-6 > .media > .media-body p {
+  margin-top: 4%;
+}
+#home > .navbar-default {
+  padding: 50px 0;
+}
+#home > .navbar-default > .container > .row > .col-md-6 > .center-block {
+  width: 40%;
+}
+@media screen and (min-width: 768px) {
+  .tu {
+    float: right;
+  }
+  .zi {
+    float: left;
+  }
+}
+.bg {
+  background: url(../images/img/bg.jpg);
+  color: white;
+}
+.slide {
+  background: url(../images/img/slide.png);
+}
+#profile > .slide > .container > .row > .col-md-8 {
+  padding-right: 3%;
+}
+#profile > .slide > .container > .row > .col-md-8 .container-fluid > .row {
+  box-shadow: 5px 5px 5px gray;
+  margin-top: 5%;
+  background: white;
+}
+#profile > .slide > .container > .row > .col-md-8 .container-fluid > .row > .col-xs-5 > img {
+  padding: 5% 0;
+}
+#profile > .slide > .container > .row > .col-md-8 .container-fluid > .row:last-child {
+  margin-bottom: 5%;
+}
+#profile > .slide > .container > .row > .col-md-4 {
+  background: white;
+  margin-top: 3.1%;
+}
+#profile > .slide > .container > .row > .col-md-4 > .row {
+  margin-top: 5%;
+}
+#profile > .slide > .container > .row > .col-md-4 > .row > .col-md-5 > .img-last {
+  padding-bottom: 10%;
+}
+#messages > .slide > .container {
+  padding-top: 2%;
+}
+#settings > .slide > .container > .row > .col-md-3 {
+  padding-top: 3%;
+}
+#settings > .slide > .container > .row > .col-md-3 > .border-e {
+  border: 1px solid #eee;
+  border-top: 1px solid grey;
+  border-radius: 4px;
+}
+#settings > .slide > .container > .row > .col-md-3 > .border-e > .row > .col-md-12 > .thumbnail {
+  margin-bottom: 0px !important;
+  border: none;
+  border-bottom: 1px solid #eee;
+  border-radius: 0px;
+}
+#settings > .slide > .container > .row > .col-md-3 > .border-e > .row > .col-md-12 > .thumbnail > a {
+  color: inherit;
+}
+#settings > .slide > .container > .row > .col-md-9 > .thumbnail > a {
+  font-size: 30px;
+  font-weight: 500;
+  color: inherit;
+}
+.navbar-color {
+  background: #666666;
+}
+.text-white {
+  color: #eee;
+}
